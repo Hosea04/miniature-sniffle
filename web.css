@@ -28,3 +28,14 @@ body{
     font-size: 30px ;
     font-weight: 400;
 }
+.button{
+    margin: 0px 0px 0px 200px;
+    border-radius: 5px;
+    color: yellow;
+
+}
+.max-width .submit{
+    margin: 0px 0px 0px 220px;
+    width: 100px;
+    height: 30px;
+}
