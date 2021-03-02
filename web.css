@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-/* container section styling */
 body{
     display: flex;
     background-image: url('img/pexels-pixabay-235990.jpg');
@@ -10,5 +9,22 @@ body{
     background-position: center;
     background-size: cover;
     color:lightgreen;
-    
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.max-width{
+    margin: auto 0 auto 40px;
+}
+.container .text-1{
+    font-size: 60px ;
+    font-weight: 600;
+}
+.container .text-2{
+    font-size: 40px ;
+    font-weight: 450;
+    margin-left: -3px;
+}
+.container .text-3{
+    font-size: 30px ;
+    font-weight: 400;
 }
