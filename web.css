@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* container section styling */
+body{
+    display: flex;
+    background-image: url('img/pexels-pixabay-235990.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color:lightgreen;
+    
+}
