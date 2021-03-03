@@ -13,13 +13,19 @@
             <div class="text-1">Welcome to the</div>
             <div class="text-2">Ghanaians website and learn</div>
             <div class="text-3">How they name their children after birth</div>
-        </div>
+        </div><br><br>
+        <form method="post" onSubmit="submitFuntion(event)">
+        <div class="dob">
+            <input type="date" name="date" class="date">
+        </div><br><br>
         <div class="button">
             <input type="radio" name="gender" id="male"><span id="male">&nbsp;Male</span>&nbsp;&nbsp;
-            <input type="radio" name="gender" id="female"><span id="female">&nbsp;Fale</span>&nbsp;&nbsp;<br><br>
+            <input type="radio" name="gender" id="female"><span id="female">&nbsp;Female</span>&nbsp;&nbsp;<br><br>
             
         </div>
-        <input type="submit" name="submitbutton" onclick="alert('Hosea!!!!!!!!!!stupid!!!shamles')" value="Submit" class="submit">
+        <input type="submit" name="submitbutton" value="Submit" class="submit">
+        </form>
     </div>
+    <script src="myscripts.js"></script>
 </body>
 </html>

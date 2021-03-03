@@ -15,6 +15,24 @@ body{
 .max-width{
     margin: auto 0 auto 40px;
 }
+.dob input{
+    margin: 0px 0px 0px 190px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 9px 7px;
+    width: 180px;
+    outline: none;
+    color: ghostwhite;
+    border-radius: 24px;
+    transition: 0.4s;
+}
+.dob input:focus{
+    width: 240px;
+}
 .container .text-1{
     font-size: 60px ;
     font-weight: 600;
@@ -38,4 +56,8 @@ body{
     margin: 0px 0px 0px 220px;
     width: 100px;
     height: 30px;
+}
+.alert{
+    width: 300px;
+    
 }
